@@ -1,0 +1,42 @@
+{
+	"name": "starter_spip",
+	"version": "1.0.0",
+	"description": "les fichiers à intégrer dans un plugin squelette pour avoir ZPIP opérationnel + Knacss 7",
+	"main": "gulpfile.js",
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"IE 10"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@git.gamuza.fr:2222/Gamuza/starter_SPIP.git"
+	},
+	"author": "tofulm at Gamuza",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/preset-env": "^7.12.1",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-notify": "^3.2.0",
+		"gulp-regex-rename": "^0.1.0",
+		"gulp-svg-sprite": "^1.5.0",
+		"gulp-svgmin": "^2.2.0",
+		"gulp-uglify": "^3.0.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"cssnano": "^4.1.10",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"postcss": "^7.0.35",
+		"postcss-uncss": "^0.17.0",
+		"uncss": "^0.17.3"
+	}
+}
