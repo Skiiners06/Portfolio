@@ -1,3 +1,40 @@
-.titre {
-  color:blue;
+.container{
+  width:100%;
 }
+
+.menu {
+  background-color: #000000;
+  opacity: 80%;
+}
+
+.menu ul{
+  display:flex;
+  list-style-type:none ;
+}
+
+.lienMenu #text{
+  font-size: 20px;
+}
+
+.lienMenu img{
+  justify-content: space-between;
+}
+
+/* liens menu : */
+
+.menu ul .lienMenu{
+  color:#FFFFFF;
+  flex:1 1 auto;
+  margin-top:5px;
+
+}
+
+.iconeMenu{
+  height:50px;
+}
+
+
+
+
+
+
