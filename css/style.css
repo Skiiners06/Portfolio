@@ -116,6 +116,30 @@ h3{
   text-align: center;
 }
 
+.contact>form{
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  margin:30px auto;
+
+}
+
+.champContact{
+  margin:5px 0px;
+  padding:10px 10px;
+}
+
+
+
+/* Boutton valider formulaire contact : */
+input[type=submit]{
+  background-color:#000000;
+  opacity: 80%;
+  color:white;
+}
+
+
+
 @media screen and (min-width: 480px){
 
 }
