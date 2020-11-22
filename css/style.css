@@ -34,4 +34,40 @@
   height: 50px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.wave{
+  width:100%;
+}
+
+.containerPhoto-text{
+  display:flex;
+  flex-direction: column;
+  margin-top:20px;
+  text-align:center;
+}
+
+.titreSection{
+  display:flex;
+  justify-content: center;
+  margin-top:10px;
+  background-color:#DCDCDC;
+  padding-top:10px;
+}
+
+h2{
+  width:80%;
+  text-transform: uppercase;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  text-align:center;
+}
+
+.aPropos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 480px){
+
+}
