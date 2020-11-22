@@ -53,6 +53,10 @@
   padding-top:10px;
 }
 
+h1{
+  text-transform: uppercase;
+}
+
 h2{
   width:80%;
   text-transform: uppercase;
@@ -65,12 +69,16 @@ h2{
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .realisation{
   display:flex;
   flex-direction:column;
+}
+
+.gescaleL{
+  margin-top:30px;
 }
 
 .gescaleL,.gescaleWeb{
@@ -79,6 +87,7 @@ h2{
   text-align: center;
 }
 
+/* Séparateur sous-titre réalisation */
 .gescaleL,.gescaleWeb>img{
   padding-top:5px;
   padding-bottom: 5px;
@@ -88,6 +97,23 @@ h2{
 h3{
   text-transform: uppercase;
   text-align:center;
+}
+
+/* Partie réalisation application client Lourd : */
+
+.realGescaleLourd{
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Partie réalisation application client WEB : */
+.realGescaleWeb{
+  margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media screen and (min-width: 480px){
