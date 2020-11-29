@@ -19,7 +19,7 @@
 
 .lienMenu img {
   -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
 }
 
 /* liens menu : */
@@ -72,6 +72,26 @@ h2{
   margin-top: 30px;
 }
 
+.competences{
+  display:flex;
+  flex-direction: column;
+}
+
+
+/* icones des compétences */
+.logoCompetences{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+svg.iconeCompt {
+  width: 140px;
+  height: 100px;
+  margin: .5em;
+}
+
 .realisation{
   display:flex;
   flex-direction:column;
@@ -102,18 +122,35 @@ h3{
 /* Partie réalisation application client Lourd : */
 
 .realGescaleLourd{
+  width:100%;
   margin-top:30px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
+.imgClientLourd>img{
+  width:90%;
+}
+
+.legendeImg{
+  font-size:0.8em;
+  font-style: italic;
+  text-align:center;
+}
+
 /* Partie réalisation application client WEB : */
+
 .realGescaleWeb{
+  width:100%;
   margin-top:30px;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.imgClientWeb>img{
+  width:90%;
 }
 
 .contact>form{

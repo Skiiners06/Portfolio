@@ -22,6 +22,7 @@
     <list default="true" id="26ba3f34-4011-40ea-bb6f-426fddc70d60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/competencesMobile.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,8 @@
       <workItem from="1604765555602" duration="2446000" />
       <workItem from="1604855316883" duration="1371000" />
       <workItem from="1604912370260" duration="4000" />
-      <workItem from="1606037181513" duration="8831000" />
+      <workItem from="1606037181513" duration="8889000" />
+      <workItem from="1606641273247" duration="4683000" />
     </task>
     <servers />
   </component>
@@ -93,5 +95,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
