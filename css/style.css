@@ -8,7 +8,7 @@
 }
 
 .menu ul {
-  display: -ms-flexbox;
+  justify-content: space-between;
   display: flex;
   list-style-type: none;
 }
@@ -17,21 +17,22 @@
   font-size: 20px;
 }
 
-.lienMenu img {
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
 /* liens menu : */
 .menu ul .lienMenu {
   color: #FFFFFF;
-  -ms-flex: 1 1 auto;
-      flex: 1 1 auto;
+  /*-ms-flex: 1 1 auto;
+  flex: 1 1 auto;*/
   margin-top: 5px;
 }
 
 .iconeMenu {
   height: 50px;
+  width:80px;
+}
+
+li>a{
+  color:white;
+  justify-content: space-between;
 }
 
 .wave{
@@ -178,5 +179,15 @@ input[type=submit]{
 
 
 @media screen and (min-width: 480px){
+
+  .menu ul {
+    padding:2em;
+  }
+
+  /* Text en dessous des icones du menu */
+  li>a {
+    display: flex;
+    flex-direction: column;
+  }
 
 }
