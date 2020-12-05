@@ -64,6 +64,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="26ba3f34-4011-40ea-bb6f-426fddc70d60" name="Default Changelist" comment="" />
@@ -78,7 +81,8 @@
       <workItem from="1604855316883" duration="1371000" />
       <workItem from="1604912370260" duration="4000" />
       <workItem from="1606037181513" duration="8889000" />
-      <workItem from="1606641273247" duration="6538000" />
+      <workItem from="1606641273247" duration="6844000" />
+      <workItem from="1607164002404" duration="1574000" />
     </task>
     <servers />
   </component>

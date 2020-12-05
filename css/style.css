@@ -71,11 +71,18 @@ h2{
   flex-direction: column;
   text-align: center;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
 }
 
 .competences{
   display:flex;
   flex-direction: column;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -96,17 +103,38 @@ svg.iconeCompt {
 .realisation{
   display:flex;
   flex-direction:column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gescaleL{
   margin-top:30px;
+
 }
 
 .gescaleL,.gescaleWeb{
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top:30px;
 }
+
+/* Boutton en savoir plus */
+.savoirPlus{
+  width:130px;
+  height:40px;
+  background-color:#DCDCDC;
+  border-radius: 30px;
+  color:black;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0.5em;
+  display:inline-block;
+}
+
+
+
 
 /* Séparateur sous-titre réalisation */
 .gescaleL,.gescaleWeb>img{
@@ -123,8 +151,10 @@ h3{
 /* Partie réalisation application client Lourd : */
 
 .realGescaleLourd{
-  width:100%;
-  margin-top:30px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -143,8 +173,10 @@ h3{
 /* Partie réalisation application client WEB : */
 
 .realGescaleWeb{
-  width:100%;
-  margin-top:30px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   text-align: center;
