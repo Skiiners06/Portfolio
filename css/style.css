@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
 .menu {
   background-color: #000000;
   opacity: 80%;
@@ -76,6 +80,8 @@ h2{
   width:90%;
 }
 
+
+
 .competences{
   display:flex;
   flex-direction: column;
@@ -136,6 +142,8 @@ svg.iconeCompt {
 
 
 
+
+
 /* Séparateur sous-titre réalisation */
 .gescaleL,.gescaleWeb>img{
   padding-top:5px;
@@ -146,6 +154,7 @@ svg.iconeCompt {
 h3{
   text-transform: uppercase;
   text-align:center;
+  font-size: 0.9em;
 }
 
 /* Partie réalisation application client Lourd : */
@@ -189,12 +198,15 @@ h3{
 .contact>form{
   display: flex;
   flex-direction: column;
-  width:80%;
-  margin:30px auto;
+  width:70%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 .champContact{
+  border: 1px solid black;
   margin:5px 0px;
   padding:10px 10px;
 }
@@ -220,6 +232,34 @@ input[type=submit]{
   li>a {
     display: flex;
     flex-direction: column;
+  }
+
+  /* Infos des section : */
+  .aPropos,.competences,.realisation,.realGescaleWeb,.realGescaleLourd{
+    width:75%;
+    font-size: 1.1em;
+  }
+
+  h3{
+    font-size: 1.2em;
+  }
+
+  .contact>form{
+    width:50%;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+
+  h3{
+    font-size: 1.3em;
+  }
+
+  .realisation{
+    width:90%;
+    flex-direction: row;
+    margin-bottom: 30px;
   }
 
 }
